@@ -67,11 +67,7 @@ public class CreateEvent extends AppCompatActivity {
 //                }
 //            }
 
-<<<<<<< HEAD
             Intent data = new Intent(this, MainActivity.class);
-=======
-            Intent data = new Intent(this , MainActivity.class);
->>>>>>> cc9682d635be5c8aee2a5f8d551e73582ce5733b
             data.putExtra(key, e);
             if (intent.hasExtra("EDIT_POS")) {
                 int pos = intent.getIntExtra("EDIT_POS", 0);
